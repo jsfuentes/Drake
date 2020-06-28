@@ -1,0 +1,15 @@
+@tailwind base;
+
+/* Preflight will be injected here */
+/*Put all classes here*/
+div._quote {
+  border-left: 4px solid;
+  @apply pl-5 italic mb-8 border-black;
+}
+
+div._quote div {
+  @apply mt-2 not-italic;
+}
+
+@tailwind components;
+@tailwind utilities;
